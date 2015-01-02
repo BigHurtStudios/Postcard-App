@@ -38,15 +38,6 @@
                                     <rect key="frame" x="16" y="274" width="224" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA3-H9-iOd">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="136" height="27"/>
-                                </variation>
-                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1D-ZO-y4E">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -70,6 +61,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E8K-j7-08Z"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsN-MX-8i4">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="108" width="136" height="33"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -77,9 +77,9 @@
                                 <exclude reference="TJL-GX-VKC"/>
                                 <exclude reference="9rj-Xu-qik"/>
                                 <exclude reference="EhP-cd-BwZ"/>
-                                <exclude reference="gA3-H9-iOd"/>
                                 <exclude reference="x1D-ZO-y4E"/>
                                 <exclude reference="Mgf-fe-G9C"/>
+                                <exclude reference="dsN-MX-8i4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -87,9 +87,9 @@
                                 <include reference="TJL-GX-VKC"/>
                                 <include reference="9rj-Xu-qik"/>
                                 <include reference="EhP-cd-BwZ"/>
-                                <include reference="gA3-H9-iOd"/>
                                 <include reference="x1D-ZO-y4E"/>
                                 <include reference="Mgf-fe-G9C"/>
+                                <include reference="dsN-MX-8i4"/>
                             </mask>
                         </variation>
                     </view>
@@ -98,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="9rj-Xu-qik" id="iEc-Sw-AAa"/>
                         <outlet property="mailButton" destination="Mgf-fe-G9C" id="ZcR-6d-zEX"/>
                         <outlet property="messageLabel" destination="x1D-ZO-y4E" id="4fG-wQ-gJl"/>
+                        <outlet property="nameLabel" destination="dsN-MX-8i4" id="Azr-lp-yo7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
